@@ -1,0 +1,14 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: Sharath Eganadane
+ * Creation Date: 27-Mar-2022 at 6:18:44 pm
+ *********************************************/
+m=37;
+n=34;
+SheetConnection ExcelFile ("Data.xlsx");
+C from SheetRead(ExcelFile,"Sheet1!B38:AL38");
+A from SheetRead(ExcelFile,"Sheet1!B3:AL36");
+P from SheetRead(ExcelFile,"Sheet1!B37:AL37");
+A_max from SheetRead(ExcelFile,"Sheet2!B2:B35");
+A_min from SheetRead(ExcelFile,"Sheet2!C2:C35");
+B from SheetRead(ExcelFile,"Sheet2!F1");
